@@ -2,6 +2,7 @@ import sounddevice as sd
 from scipy.io.wavfile import write
 from datetime import datetime
 
+# number of recordings to record
 num = 60
 
 for x in range(num):
